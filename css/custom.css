@@ -1,0 +1,92 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'WaltographRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 40px;
+}
+
+
+.girl{
+    color:#fbd2d8;
+}
+
+.boy{
+    color:#b7eaf1;
+}
+
+.bggirl{
+    background-color:#fbd2d8; 
+}
+
+.bgboy{
+    background-color:#b7eaf1; 
+}
+
+.overlaywhite {
+    position: absolute;
+    background-color: #ffff;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.75;
+}
+
+.overlaygirl {
+    position: absolute;
+    background-color: #fbd2d8;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.75;
+}
+
+#reveal {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#151515;
+    z-index: 2;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.fontpink{
+    color: #EB8593;
+}
+
+.showcase .showcase-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  @media (min-width: 768px) {
+    .showcase .showcase-text {
+      padding: 7rem;
+    }
+  }
+
+
+
