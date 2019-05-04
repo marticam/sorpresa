@@ -10,7 +10,7 @@
 function on() {
   document.getElementById("reveal").style.display = "block";
   setTimeout(function(){
-    window.location.href = '/src/positive.html';
+    window.location.href = 'src/positive.html';
  }, 5000);
 }
 
